@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Reenie+Beanie&family=Schoolbell&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ceviche+One&display=swap');
+
+.nav-bar {
+background-color:  black;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.nav-bar ul li { 
+    font-family: 'Advent Pro', sans-serif;
+    list-style-type: none;
+    display: inline-block; 
+}
+
+.nav-bar li a { 
+    text-decoration: none;
+    padding: 50px;
+}
+
+.rick-morty-body {
+    margin-top: 1em;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Schoolbell', cursive;
+    background-color: #1d2d44;
+    padding-top: 1em;
+    padding-bottom: 2.5em;
+}
+
+.rick-title {
+    font-family: 'Reenie Beanie', cursive;
+    font-size: 3.5em;
+    word-spacing: -0.25em;
+    color: #118ab2;
+    text-shadow: 0px 0px 1px greenyellow,0px 0px 1.5px  greenyellow, 0px 0px 1.5px  greenyellow, 0px 0px 1.5px  greenyellow, 0px 0px 1.5px  greenyellow;
+}
+
+/* 
+.name {
+    color: #118ab2;
+    text-shadow: 0px 0px 1px greenyellow,0px 0px 1.5px  greenyellow, 0px 0px 1.5px  greenyellow, 0px 0px 1.5px  greenyellow, 0px 0px 1.5px  greenyellow;
+    font-size: 1.5em;
+    margin-top: 2em;
+    content: "";  
+    display: block; 
+    margin: 0 auto; 
+    width: 15%; 
+    padding-bottom: 10px;
+    padding-top: 10px; 
+    border-bottom: 1px solid greenyellow;
+    border-top: 1px solid greenyellow; 
+    margin-top: 1em;
+} */
+
+.description {
+    color: #118ab2;
+    text-shadow: 0px 0px 1px greenyellow,0px 0px 1.5px  greenyellow, 0px 0px 1.5px  greenyellow, 0px 0px 1.5px  greenyellow, 0px 0px 1.5px  greenyellow;
+    font-size: 1.25em;
+    margin-top: 1em;
+}
+
+.form {
+	display: flex;
+	flex-direction: row;
+    justify-content: center;
+    margin-top: -1em;
+}
+
+#submit, #number {
+    font-family: 'Reenie Beanie', cursive;
+	font-size: 1em;
+	background-color: #118ab2;
+    border: 1px solid greenyellow; 
+    color:  #118ab2;
+    text-shadow: 0px 0px 1px greenyellow,0px 0px 1.5px  greenyellow, 0px 0px 1.5px  greenyellow, 0px 0px 1.5px  greenyellow, 0px 0px 1.5px  greenyellow;
+    font-weight: bolder;
+    font-size: 1.5em;
+    margin-left: 0.25em;
+   
+}
+
+#number {
+    width: 10%;
+}
+
+::placeholder{
+    color:  #118ab2;
+    font-family: 'Reenie Beanie', cursive;
+}
+
+.potter-body {
+    margin-top: 1em;
+    justify-content: center;
+    text-align: center;
+    background-image: url('potter.png');
+    padding: 15em;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.potter-title {
+    color:yellow;
+    font-family: 'Rock Salt', cursive;
+    text-shadow: 4px 4px black, 0px 0px 10px white;
+    margin-top: -5em;
+    font-size: 2.5em;
+}
+
+.sorting-hat {
+    color: white;
+    font-family: 'Rock Salt', cursive;
+    text-shadow: 2px 0px white;
+    word-spacing: 0.5em;
+    font-size: 1.5em;
+}
+
+.Ravenclaw {
+    color: rgb(37, 40, 194);
+}
+
+.Hufflepuff {
+    color: rgb(230, 230, 6);
+}
+
+.Slytherin {
+    color: rgb(18, 150, 18);
+}
+
+.Gryffindor {
+    color: rgba(255, 0, 0, 0.795);
+}
+
+.chuck-body {
+    justify-content: center;
+    text-align: center;
+    background-image: url('chuck.jpg');
+    padding: 10em;
+    background-repeat: no-repeat;
+    background-position: top;
+    margin-top: 2.5em;
+}
+
+.chuck-title {
+    color: rgb(233, 53, 53);
+    font-family: 'Ceviche One', cursive;
+    text-shadow: 0px 0px 1px white,0px 0px 1.5px white, 0px 0px 1.5px white, 0px 0px 1.5px white, 0px 0px 2.5px  white;
+    font-size: 2.5em;
+    margin-top: -4.5em;
+    word-spacing: 0.25em;
+}
+
+.chuck-joke {
+    color: rgb(233, 53, 53);
+    font-family: 'Ceviche One', cursive;
+    text-shadow: 0px 0px 1px white,0px 0px 1.5px white, 0px 0px 1.5px white, 0px 0px 1.5px white, 0px 0px 2.5px  white;
+    font-size: 2.5em;
+    justify-content: center;
+    text-align: center;
+    padding-left: 5em;
+    padding-right: 5em;
+}
+
+.potter-nav {
+    color: yellow;
+    font-family: 'Rock Salt', cursive;
+    text-shadow: 2px 0px white;
+}
+
+.rick-nav {
+    font-family: 'Reenie Beanie', cursive;
+    font-size: 2em;
+    color: #118ab2;
+    text-shadow: 0px 0px 1px greenyellow,0px 0px 1.5px  greenyellow, 0px 0px 1.5px  greenyellow, 0px 0px 1.5px  greenyellow, 0px 0px 1.5px  greenyellow;
+}
+
+.chuck-nav {
+    color: rgb(233, 53, 53);
+    font-family: 'Ceviche One', cursive;
+    text-shadow: 0px 0px 1px white,0px 0px 1.5px white, 0px 0px 1.5px white, 0px 0px 1.5px white, 0px 0px 2.5px  white;
+    font-size: 2em;
+
+}

@@ -1,0 +1,19 @@
+<div class="rick-morty-body">
+
+<h1 class="rick-title"> Rick <a>and</a> Morty</h1>
+<form class='form' action="/rickmorty" method="post">
+	<input id='number' type="number" name="number" placeholder="Input Number">
+    {{!-- req.body.whateverYourNameIs --}}
+	<input type="submit" value="Submit" id="submit">
+</form>
+<div class='description'>
+{{#each data}}
+{{/each}}
+<p>{{data.name}}</p>
+<img id="image" src={{data.image}} alt="image" height="200px" width="250px">
+<p>Status: {{data.status}}</p>
+<p>Species: {{data.species}}</p>
+<p>Gender: {{data.gender}}</p>
+<p>Origin: {{data.origin}}</p>
+
+</div>
